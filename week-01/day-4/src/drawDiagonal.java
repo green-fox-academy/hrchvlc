@@ -1,6 +1,6 @@
 public class drawDiagonal {
     public static void main(String[] args) {
-
+    
 
     }
 }

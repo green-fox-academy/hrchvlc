@@ -1,7 +1,17 @@
+import java.util.Scanner;
+
 public class multiplicationTable {
     public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
 
 
+        System.out.println("Give me a number!");
+        int a = scanner.nextInt();
+
+        for (int x = 1; x <= 10; x ++) {
+            int y = x * a;
+            System.out.println(x + " * " + a + " = " + y);
+        }
 
     }
 }

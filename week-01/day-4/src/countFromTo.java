@@ -1,7 +1,22 @@
+import java.util.Scanner;
+
 public class countFromTo {
     public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
 
 
+    System.out.println("Give me first number!");
+    int first = scanner.nextInt();
+    System.out.println("Give me second number!");
+    int second = scanner.nextInt();
+    System.out.println("Thanks!");
+
+    if (first >= second) {
+        System.out.println("The second number should be bigger!");
+    } else while (first < second) {
+        System.out.println(first);
+        first ++;
+    }
 
     }
 

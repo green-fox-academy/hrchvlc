@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f10def2d-e3d0-4e06-9f3f-4c7640a143c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drawChessTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/drawChessTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drawDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/drawDiagonal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drawTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/drawTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guessTheNumber.java" afterDir="false" />
-    </list>
+    <list default="true" id="f10def2d-e3d0-4e06-9f3f-4c7640a143c3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -272,18 +266,17 @@
       <updated>1554380206874</updated>
       <workItem from="1554380210145" duration="12613000" />
       <workItem from="1554447898739" duration="16668000" />
-      <workItem from="1554650014139" duration="3821000" />
+      <workItem from="1554650014139" duration="3998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33102000" />
+    <option name="totallyTimeSpent" value="33279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -292,7 +285,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

@@ -1,8 +1,23 @@
+//not finished
+
+import java.util.Scanner;
+
 public class guessTheNumber {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Give me a number that you friend will guess!");
+        int number = scanner.nextInt();
 
-
+        System.out.println("Guess the number");
+        int userGuess = scanner.nextInt();
+        while (userGuess != number) {
+            if (userGuess > number) {
+                System.out.println("The stored number is lower");
+            } else if (userGuess < number) {
+                    System.out.println("The stored number is higher");
+            }System.out.println();
+        } System.out.println("You guessed it!");
     }
 }
 

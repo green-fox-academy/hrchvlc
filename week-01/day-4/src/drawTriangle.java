@@ -8,17 +8,29 @@ public class drawTriangle {
         int number = scanner.nextInt();
         String star = "*";
 
-        int numberOfLine = 1;
         String line = "";
 
-        for (int i = 0; i < number; i++) {
+      for (int numberOfLine = 1; numberOfLine <= number; numberOfLine ++) {
+          for (int a = 1; a <= numberOfLine; a++) {
+              System.out.print(star);
+                      
+          }
+          System.out.println();
+      }
+
+
+       /*for (int i = 0; i < number; i++) {
             for (int j = 0; j < numberOfLine ; j++) {
                 line += star;
                 System.out.println(line);
             }
         }
-        numberOfLine++;
 
+
+        //numberOfLine++;
+
+
+        */
     }
 }
 

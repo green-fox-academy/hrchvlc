@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="694c50be-12ff-4f14-87a9-013aef27e2d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChangeElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompareLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IncrementElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Third.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-01/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-01/day-5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -33,21 +38,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/greet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding>
-                <element signature="e#56#57#0" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/appendA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -63,16 +53,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
+                <element signature="e#229#230#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SumElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ChangeElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IncrementElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PrintElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -81,6 +108,24 @@
                 <element signature="e#239#240#0" expanded="true" />
                 <element signature="e#281#282#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Third.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompareLength.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -103,8 +148,14 @@
         <option value="$PROJECT_DIR$/src/doubling.java" />
         <option value="$PROJECT_DIR$/src/greet.java" />
         <option value="$PROJECT_DIR$/src/appendA.java" />
-        <option value="$PROJECT_DIR$/src/sum.java" />
         <option value="$PROJECT_DIR$/src/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/Third.java" />
+        <option value="$PROJECT_DIR$/src/CompareLength.java" />
+        <option value="$PROJECT_DIR$/src/sum.java" />
+        <option value="$PROJECT_DIR$/src/SumElements.java" />
+        <option value="$PROJECT_DIR$/src/ChangeElement.java" />
+        <option value="$PROJECT_DIR$/src/IncrementElement.java" />
+        <option value="$PROJECT_DIR$/src/PrintElement.java" />
       </list>
     </option>
   </component>
@@ -158,37 +209,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factorial" />
+  <component name="RunManager" selected="Application.PrintElement">
+    <configuration name="ChangeElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChangeElement" />
       <module name="functionsAndArrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="appendA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="appendA" />
+    <configuration name="CompareLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompareLength" />
       <module name="functionsAndArrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doubling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doubling" />
+    <configuration name="IncrementElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IncrementElement" />
       <module name="functionsAndArrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="greet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greet" />
+    <configuration name="PrintElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintElement" />
       <module name="functionsAndArrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sum" />
+    <configuration name="SumElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumElements" />
       <module name="functionsAndArrays" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.sum" />
-        <item itemvalue="Application.doubling" />
-        <item itemvalue="Application.greet" />
-        <item itemvalue="Application.appendA" />
+        <item itemvalue="Application.PrintElement" />
+        <item itemvalue="Application.IncrementElement" />
+        <item itemvalue="Application.ChangeElement" />
+        <item itemvalue="Application.SumElements" />
+        <item itemvalue="Application.CompareLength" />
       </list>
     </recent_temporary>
   </component>
@@ -214,12 +265,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554713591097</updated>
-      <workItem from="1554713594885" duration="7038000" />
+      <workItem from="1554713594885" duration="9308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7038000" />
+    <option name="totallyTimeSpent" value="9308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -230,7 +281,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -240,7 +291,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,16 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -313,6 +354,59 @@
             <element signature="e#239#240#0" expanded="true" />
             <element signature="e#281#282#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Third.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SumElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompareLength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ChangeElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IncrementElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>

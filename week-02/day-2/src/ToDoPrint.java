@@ -19,5 +19,4 @@ public class ToDoPrint {
 //      - Diablo
         System.out.println(toDoText);
     }
-
 }

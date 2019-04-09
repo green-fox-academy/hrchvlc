@@ -4,7 +4,8 @@ public class sum {
         int sum = 0;
         for (int i = 0; i <= endNumber; i++) {
             sum = sum + i;
-        } return sum;
+        }
+        return sum;
     }
 
     public static void main(String[]args) {

@@ -4,7 +4,8 @@ public class Factorial {
         int factorio = 1;
         for (int i = 1; i <= endNumber; i++) {
             factorio = factorio * i;
-        } return factorio;
+        }
+        return factorio;
     }
 
     public static void main(String[]args) {

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32bc143d-9caa-4a63-ae46-f575128e3de6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MapIntroduction2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonalFinance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProductDatabase1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProductDatabase2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShoppingList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShoppingList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TelephoneBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-01/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-01/day-5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,9 +143,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="697" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -257,15 +250,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554808367394</updated>
-      <workItem from="1554808373228" duration="13640000" />
+      <workItem from="1554808373228" duration="13764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13640000" />
+    <option name="totallyTimeSpent" value="13764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="697" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -283,7 +276,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

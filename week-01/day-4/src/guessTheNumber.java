@@ -14,8 +14,10 @@ public class guessTheNumber {
         while (userGuess != number) {
             if (userGuess > number) {
                 System.out.println("The stored number is lower");
+                return;
             } else if (userGuess < number) {
                     System.out.println("The stored number is higher");
+                    return;
             }System.out.println();
         } System.out.println("You guessed it!");
     }

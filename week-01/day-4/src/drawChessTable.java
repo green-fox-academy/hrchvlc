@@ -8,11 +8,11 @@ public class drawChessTable {
         int numberOfLines = scanner.nextInt();
 
         for (int rows = 0; rows <= numberOfLines; rows++) {
-            for (int columns = 0; columns <= numberOfLines; columns++) {
-                if ((columns % 2 == 0) && (rows % 2 == 0)) {
-                    System.out.print("%");
+            for (int columns = 0; columns <= numberOfLines / 2; columns++) {
+                if (rows % 2 == 0) {
+                    System.out.print("%" + " ");
                 } else {
-                    System.out.print(" ");
+                    System.out.print(" " + "%");
                 }
 
             }

@@ -31,8 +31,9 @@ public class ListIntroduction2 {
             System.out.println("Same");
         } else if (listA.size() > listB.size()) {
             System.out.println("A bigger than B");
-        } else
+        } else {
             System.out.println("B bigger than A");
+        }
 
         System.out.println(listA.indexOf("Avocado"));
         System.out.println(listB.indexOf("Durian"));

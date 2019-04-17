@@ -20,10 +20,9 @@ public class GoToCenter {
         }
     }
 
-        public static void drawLineToCenter(int x, int y, Graphics g) {
-                    g.drawLine(x, y,WIDTH/2, HEIGHT/2);
-        }
-
+    public static void drawLineToCenter(int x, int y, Graphics g) {
+        g.drawLine(x, y, WIDTH / 2, HEIGHT / 2);
+    }
 
 
     // Don't touch the code below

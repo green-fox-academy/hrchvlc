@@ -13,5 +13,4 @@ public class TakesLonger {
 
         System.out.println(quote);
     }
-
 }

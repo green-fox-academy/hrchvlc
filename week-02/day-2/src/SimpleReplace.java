@@ -11,5 +11,4 @@ public class SimpleReplace {
 
         System.out.println(example);
     }
-
 }

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b16cea-d96c-4590-8b32-bff013458c8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pokemon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pokemon/Pokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-2/src/ListIntroduction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-2/src/ListIntroduction2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-2/src/SimpleReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-2/src/SimpleReplace.java" afterDir="false" />
@@ -11,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/../../week-02/day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-3/src/GoToCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-3/src/GoToCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pokemon/Pokemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pokemon/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="225">
+              <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +102,8 @@
         <option value="$PROJECT_DIR$/src/Counter/CounterTest.java" />
         <option value="$PROJECT_DIR$/src/Counter/Counter.java" />
         <option value="$PROJECT_DIR$/src/Animal/Main.java" />
-        <option value="$PROJECT_DIR$/src/Pokemon/Main.java" />
         <option value="$PROJECT_DIR$/src/Pokemon/Pokemon.java" />
+        <option value="$PROJECT_DIR$/src/Pokemon/Main.java" />
       </list>
     </option>
   </component>
@@ -133,12 +130,6 @@
               <item name="day-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Pokemon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,7 +255,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555402258382</updated>
-      <workItem from="1555402262374" duration="8754000" />
+      <workItem from="1555402262374" duration="9126000" />
     </task>
     <servers />
   </component>
@@ -277,11 +268,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8754000" />
+    <option name="totallyTimeSpent" value="9126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -450,15 +440,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pokemon/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pokemon/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="225">
+          <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

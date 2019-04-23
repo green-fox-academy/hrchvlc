@@ -19,7 +19,7 @@ public class Mentor {
         this.level = "intermediate";
     }
     public void getGoal() {
-        System.out.println("Educate brilliant junior software developers");
+        System.out.println("My goal is: Educate brilliant junior software developers");
     }
     public void introduce() {
         System.out.println("Hi, I'm " + nameOfPerson + ", a " + ageOfPerson + " year old " + genderOfPerson + " "

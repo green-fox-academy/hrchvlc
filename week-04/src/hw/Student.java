@@ -25,7 +25,7 @@ public class Student {
     }
 
     public void getGoal() {
-        System.out.println("Be a junior software developer");
+        System.out.println("My goal is: Be a junior software developer");
     }
     public void introduce() {
         System.out.println("Hi, I'm " + nameOfPerson + ", a " + ageOfPerson + " year old " + genderOfPerson

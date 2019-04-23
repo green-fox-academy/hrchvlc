@@ -23,6 +23,47 @@ public class Main {
         mentors.add(gandhi);
         Mentor mentor = new Mentor();
         mentors.add(mentor);
+        Sponzor sponsor = new Sponzor();
+        sponzors.add(sponsor);
+        Sponzor elon = new Sponzor("Elon Musk", 46, "male", "SpaceX");
+        sponzors.add(elon);
+
+        student.skipDays(3);
+
+        for (int i = 0; i < 5; i++) {
+            elon.hire();
+        }
+
+        for (int i = 0; i < 3; i++) {
+            sponsor.hire();
+        }
+
+        for(Person person : people) {
+            person.introduce();
+            person.getGoal();
+        }
+
+        Cohort awesome = new Cohort("AWESOME");
+        awesome.addStudent(student.toString());
+        awesome.addStudent(john.toString());
+        awesome.addMentor(mentor.toString());
+        awesome.addMentor(gandhi.toString());
+        awesome.info();
+
+        /*
+
+        Person mark = new Person("Mark", 46, "male");
+        people.add(mark);
+        Person jane = new Person();
+        people.add(jane);
+        Student john = new Student("John Doe", 20, "male", "BME");
+        students.add(john);
+        Student student = new Student();
+        students.add(student);
+        Mentor gandhi = new Mentor("Gandhi", 148, "male", "senior");
+        mentors.add(gandhi);
+        Mentor mentor = new Mentor();
+        mentors.add(mentor);
         Sponzor sponzor = new Sponzor();
         sponzors.add(sponzor);
         Sponzor elon = new Sponzor("Elon Musk", 46, "male", "SpaceX");
@@ -42,6 +83,7 @@ public class Main {
             person.introduce();
             person.getGoal();
         }
+         */
 
         for (Student person : students) {
             person.introduce();
@@ -58,5 +100,4 @@ public class Main {
             person.getGoal();
         }
     }
-
 }

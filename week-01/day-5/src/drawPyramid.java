@@ -18,35 +18,15 @@ public class drawPyramid {
         int maxAmountOfStars = myScanner.nextInt();
         int something = 0;
 
-        /* for (int j = 0; j < size; j++) {
-          //  for (int o = size; j < o; o--) {
-          //      System.out.print(" ");
-           // }
-            for (int i = 0; i < j + 1; i++) {
+        for (int i = 0; i < maxAmountOfStars; i++) {
+            for (int j = maxAmountOfStars; j > i; j--) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < i + something + 1; j++) {
                 System.out.print("*");
             }
-         //   something++;
+            something++;
             System.out.println();
         }
-
-         */
-
-     /*   for (int i = 0; i < maxAmountOfStars; i++) {
-            printRowOfSpaces();
-            printRowOfStars(i);
-            System.out.println();
-        }
-    }
-
-    public static void printRowOfStars(int amount) {
-        for (int i = 0; i < amount; i++) {
-            System.out.print("*");
-        }
-    }
-    public static void printRowOfSpaces() {
-
-    }
-
-      */
     }
 }

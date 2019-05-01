@@ -20,7 +20,8 @@ public class Sharpie {
             return "not usable";
         }
     }
-    public void removeTrash(){
-        if
+
+    public float getInkAmount() {
+        return inkAmount;
     }
 }

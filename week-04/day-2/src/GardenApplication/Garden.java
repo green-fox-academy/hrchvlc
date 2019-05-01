@@ -31,25 +31,22 @@ public class Garden {
        // }
     }
 
-    public void checkStatusOfPlants() {
-        for (Plant plant : this.plants
-             ) {
-            String type;
-
-            if (plant instanceof Tree) {
-                type = "tree";
-            } else {
-                type = "flower";
-            }
-
-            
-
-            System.out.println("The " + plant.colour + " " + type + " needs water.");
+    public void printStatus() {
+        for (Plant plant : this.plants) {
+            plant.getStatus();
+        };
+    }
+    public void waterPlants(int wateringAmount) {
+        System.out.println("Watering with number " + wateringAmount);
+        for (Plant plant: this.plants) {
+            plant.water(wateringAmount);
 
         }
     }
-
- //   public void dividedWatering() {
-  //      double dividedWater = wateringAmount / myFuckingGarden.size();
-  //  }
+    public void addTree() {
+        this.plants.add(new Tree("purple" , 0));
+    }
+    public void addFlower() {
+        this.plants.add(new Flower("yellow", 0));
+    }
 }

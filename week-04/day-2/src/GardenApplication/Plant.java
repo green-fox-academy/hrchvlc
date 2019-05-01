@@ -1,7 +1,7 @@
 package GardenApplication;
 
 public class Plant {
-    double currentWater;
+    double currentWater = 0;
     double wateringAmount;
     String colour;
     double consumeRate;
@@ -15,17 +15,23 @@ public class Plant {
     public Plant() {
 
     }
+    // public void watering() {
+    //     currentWater = currentWater + (wateringAmount / consumeRate);
+    // }
 
-
-    public void watering() {
-        currentWater = currentWater + (wateringAmount / consumeRate);
+    public void getStatus() {
+        String message;
+        if ()
+            System.out.println("I'm a" + getType() + "with a color " + colour);
     }
 
-    public void needsWater() {
-        if (currentWater < 5) {
-            System.out.println("Needs water");
+    public String getType() {
+        if (this instanceof Tree) {
+            return "Tree";
+        } else if (this instanceof Flower) {
+            return "Flower";
         } else {
-            System.out.println("Does not need water");
+            System.out.println("What the hell?");
         }
     }
 

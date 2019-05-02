@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5070ecc-5845-4e68-b171-78ef69d17e83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Apples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApplesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sunday/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sunday/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c5070ecc-5845-4e68-b171-78ef69d17e83" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -185,6 +179,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -320,7 +315,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

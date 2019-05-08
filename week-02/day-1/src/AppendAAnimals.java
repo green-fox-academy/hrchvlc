@@ -1,4 +1,12 @@
 public class AppendAAnimals {
+
+    public static void main(String[] args) {
+        String[] animals = {"koal", "pand", "zebr"};
+        for (String animal : animals) {
+            animal = animal + "a";
+            System.out.println(animal);
+        }
+    }
 }
 
 // - Create an array variable named `animals`

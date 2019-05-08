@@ -6,7 +6,7 @@ public class CompareLength {
         int[] p1 = {1, 2, 3};
         int[] p2 = {4, 5};
 
-        boolean result = (p2.length > p1.length) ? true : false;
+        boolean result = p2.length > p1.length;
         System.out.println(result);
     }
 }

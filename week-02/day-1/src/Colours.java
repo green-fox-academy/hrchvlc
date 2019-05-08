@@ -1,4 +1,11 @@
+import java.lang.reflect.Array;
+
 public class Colours {
+    public static void main(String[] args) {
+        String[][] twoDimensional = {{"lime", "forrest green", "olive", "pale green", "spring green"},
+                                    {"orange red", "red", "tomato"},
+                                    {"orchid", "violet", "pink", "hot pink"}};
+    }
 }
 
 // - Create a two dimensional array

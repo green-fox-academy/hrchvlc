@@ -21,12 +21,12 @@ public class Race {
         //if not, assign it to the list
 
         for (int i = 0; i < contestants.size(); i++) {
-            placedRiders.add(i + 1);
+        //    placedRiders.add(i + 1);
         }
 
         for (Contestant rider: contestants) {
             int num = (int)(Math.random() * placedRiders.size());
-            rider.setPlacement(placedRiders.get(num));
+        //    rider.setPlacement(placedRiders.get(num));
             placedRiders.remove(placedRiders.get(num));
         }
         for (Contestant rider: contestants) {

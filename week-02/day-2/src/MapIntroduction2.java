@@ -9,10 +9,24 @@ public class MapIntroduction2 {
         map.put("978-1-60309-461-0","The Lab");
 
         for (String i: map.keySet()) {
-            for (String j : map.values()) {
-                System.out.println(map.get(i) + " (ISBN: " + map.get(j) + ")");
-            }
+                System.out.println(map.get(i) + " (ISBN: " + i + ")");
         }
+        System.out.println("-------------");
+
+        map.remove("978-1-60309-444-3");
+
+        map.values().remove("The Lab");
+
+        map.put("978-1-60309-450-4","They Called Us Enemy");
+        map.put("978-1-60309-453-5","Why Did We Trust Him?");
+
+        for (String i: map.keySet()) {
+            System.out.println(map.get(i) + " (ISBN: " + i + ")");
+        }
+
+        System.out.println("Contains key? " + map.containsKey("478-0-61159-424-8"));
+
+        System.out.println(map.get("978-1-60309-453-5"));
     }
 }
 //}

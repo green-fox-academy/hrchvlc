@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="694c50be-12ff-4f14-87a9-013aef27e2d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AppendAAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppendAAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Colours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompareLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompareLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IncrementElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IncrementElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumAllElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumAllElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwapElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwapElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Third.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doubling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doubling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/sunday/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/sunday/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -277,18 +263,18 @@
       <workItem from="1554743386981" duration="396000" />
       <workItem from="1554818110304" duration="519000" />
       <workItem from="1554990232600" duration="115000" />
-      <workItem from="1557310438573" duration="5519000" />
+      <workItem from="1557310438573" duration="5589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19382000" />
+    <option name="totallyTimeSpent" value="19452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -297,7 +283,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

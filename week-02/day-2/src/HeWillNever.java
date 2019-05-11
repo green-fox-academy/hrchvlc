@@ -23,6 +23,11 @@ public class HeWillNever {
              int mapKey = notSoCrypticMessage[i];
                out = out + map.get(mapKey);
          }
+        // easier solution
+        // for (int key : notSoCrypticMessage) {
+        //    out = out + map.get(key);
+        // }
+
         System.out.println(out);
     }
 }

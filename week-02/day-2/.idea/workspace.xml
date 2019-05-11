@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="32bc143d-9caa-4a63-ae46-f575128e3de6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../week-01/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-01/day-5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppendA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppendA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CandyShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CandyShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HeWillNever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeWillNever.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/sunday/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/sunday/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -104,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HeWillNever.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="285">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="e#258#275#0" expanded="true" />
               </folding>
@@ -269,12 +265,12 @@
       <workItem from="1557324138573" duration="2278000" />
       <workItem from="1557387818999" duration="6870000" />
       <workItem from="1557488211280" duration="4255000" />
-      <workItem from="1557567185847" duration="4836000" />
+      <workItem from="1557567185847" duration="5079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32641000" />
+    <option name="totallyTimeSpent" value="32884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -507,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HeWillNever.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="285">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="e#258#275#0" expanded="true" />
           </folding>

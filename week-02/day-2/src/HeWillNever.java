@@ -19,25 +19,10 @@ public class HeWillNever {
         // Things are a little bit messed up
         // Your job is to decode the notSoCrypticMessage by using the hashmap as a look up table
         // Assemble the fragments into the out variable
-        map.get(1);
-        map.get(12);
-        map.get(11);
-        map.get(1);
-        map.get(2);
-
-        map.get(1);
-        map.get(7);
-        map.get(11);
-        map.get(49);
-        map.get(1);
-
-        map.get(3);
-        map.get(11);
-        map.get(1);
-        map.get(50);
-
-
-
+         for (int i = 0; i < notSoCrypticMessage.length; i++) {
+             int mapKey = notSoCrypticMessage[i];
+               out = out + map.get(mapKey);
+         }
         System.out.println(out);
     }
 }

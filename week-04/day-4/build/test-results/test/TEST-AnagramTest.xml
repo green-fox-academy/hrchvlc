@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AnagramTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-05-12T20:11:28" hostname="Lucias-MacBook.local" time="0.024">
+  <properties/>
+  <testcase name="checkingIfWordsAreAnagrams_inputTwoNonAnagrams_toWorkProperly" classname="AnagramTest" time="0.019"/>
+  <testcase name="checkingIfWordsAreAnagrams_inputTwoNulls_toWorkProperly" classname="AnagramTest" time="0.003"/>
+  <testcase name="checkingIfWordsAreAnagrams_inputTwoAnagrams_toWorkProperly" classname="AnagramTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

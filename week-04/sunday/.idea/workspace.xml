@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21ab7056-39ee-4d5c-8751-a98b24089760" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/swearWords/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swearWords/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-06/day-2/StreamAndLambda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-06/day-2/StreamAndLambda/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="21ab7056-39ee-4d5c-8751-a98b24089760" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -229,12 +226,12 @@
       <workItem from="1557740858989" duration="275000" />
       <workItem from="1557741674290" duration="2282000" />
       <workItem from="1557826511756" duration="1202000" />
-      <workItem from="1557839959972" duration="1401000" />
+      <workItem from="1557839959972" duration="1492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56766000" />
+    <option name="totallyTimeSpent" value="56857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />

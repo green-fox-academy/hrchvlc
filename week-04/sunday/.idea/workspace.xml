@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ab7056-39ee-4d5c-8751-a98b24089760" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/buildingUsage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/buildingUsage/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-01/day-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-01/day-5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -300,12 +296,12 @@
       <workItem from="1557692235168" duration="257000" />
       <workItem from="1557740858989" duration="275000" />
       <workItem from="1557741674290" duration="2282000" />
-      <workItem from="1557826511756" duration="1148000" />
+      <workItem from="1557826511756" duration="1202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55311000" />
+    <option name="totallyTimeSpent" value="55365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />

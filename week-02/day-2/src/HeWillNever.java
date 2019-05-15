@@ -1,11 +1,10 @@
 import java.util.*;
 
 public class HeWillNever {
-    public static void main(String... args){
+    public static void main(String... args) {
         String out = "";
         int[] notSoCrypticMessage = {1, 12, 1, 2, 11, 1, 7, 11, 1, 49, 1, 3, 11, 1, 50, 11};
-
-        Map<Integer, String> map = new HashMap<Integer, String>();
+       Map<Integer, String> map = new HashMap<Integer, String>();
 
         map.put(7, "run around and desert you");
         map.put(50, "tell a lie and hurt you ");

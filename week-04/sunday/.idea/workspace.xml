@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ab7056-39ee-4d5c-8751-a98b24089760" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/sunday/worstSongs/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-06/day-4/fancyTable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-06/day-4/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-02/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-06/day-3/src/main/java/com/greenfoxacademy/springstart/controllers/HelloWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-06/day-3/src/main/java/com/greenfoxacademy/springstart/controllers/HelloWebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sunday/worstSongs/file.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,6 +111,24 @@
           <expand>
             <path>
               <item name="TestTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunday" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunday" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunday" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunday" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
               <item name="sunday" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,16 +267,17 @@
       <workItem from="1557995452795" duration="6520000" />
       <workItem from="1558015417456" duration="36000" />
       <workItem from="1558016132122" duration="12000" />
+      <workItem from="1558272264895" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64031000" />
+    <option name="totallyTimeSpent" value="64078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30533117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3101777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

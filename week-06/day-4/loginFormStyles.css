@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    background-image: linear-gradient(to right bottom, #f0ea59, #f1dc4a, #f1ce3c, #f1c02f, #f0b223);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    width: 60%;
+    border-radius: 5px;
+    border-collapse: collapse;
+    overflow: hidden;
+    padding: 2%;
+}
+#description {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    width: 60%;
+    font-family: Verdana;
+}

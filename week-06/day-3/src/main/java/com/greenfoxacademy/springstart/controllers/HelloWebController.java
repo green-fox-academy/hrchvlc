@@ -8,7 +8,7 @@ public class HelloWebController {
 
     @RequestMapping("/web/greeting")
     public String greeting(Model model,@RequestParam String name) {
-        model.addAttribute("name", name);
+        model.addAttribute("name", "world");
         return "greeting";
     }
 }

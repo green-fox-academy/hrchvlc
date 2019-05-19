@@ -10,7 +10,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Path path = Paths.get("/Users/lucia/greenfox/hrchvlc/week-04/sunday/src/Rainy/cities.txt");
-        List<String> listOfCities = new ArrayList<>(); // za array vzdy tip potom nazov
+        List<String> listOfCities = new ArrayList<>();
         HashMap<String, Integer> rainPerCity = new HashMap<>();
         try {
             listOfCities = Files.readAllLines(path);
@@ -21,11 +21,9 @@ public class Main {
         for (String line : listOfCities) {
             String[] words = line.split(",");
             String city = words[1];
-            // System.out.println(city);
             String weather = words[2];
-            // System.out.println(weather);
-            if (weather.equals("RAINY")) {   // ako argument to berie String ktory si urcime
-                if (rainPerCity.containsKey(city)) {   // kazdemu mestu priradime pocet kolko krat sa opakuje
+            if (weather.equals("RAINY")) {
+                if (rainPerCity.containsKey(city)) {
                     int previousNumber = rainPerCity.get(city);
                     rainPerCity.put(city, previousNumber + 1);
                 } else {

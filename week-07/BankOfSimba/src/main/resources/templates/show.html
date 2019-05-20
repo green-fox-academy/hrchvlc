@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bank of Simba</title>
+    <link rel="stylesheet" th:href="@{static/styles.css}" />
+    <meta charset="utf-8" />
+</head>
+<body>
+<h1>Welcome to Bank of Simba!</h1>
+<p>Your name: </p><h2 th:text="${name}"></h2>
+<p>Your balance: </p><h2 th:text="${balance}"></h2>
+<p>Your animal type: </p><h2 th:text="${animalType}"></h2>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bank of Simba</title>
+    <link rel="stylesheet" th:href="@{static/styles.css}" />
+    <meta charset="utf-8" />
+</head>
+<body>
+<h1>Welcome to Bank of Simba!</h1>
+
+<table>
+    <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Balance</th>
+        <th>Animal Type</th>
+        <th>Is a king?</th>
+    </tr>
+    <tr th:each="shit : ${list}">
+        <td th:text="${shitStat.index + 1}"></td>
+        <td th:text="${shit.getName()}"></td>
+        <td th:text="${shit.getBalance()}"></td>
+        <td th:text="${shit.getAnimalType()}"></td>
+        <td>
+            <span th:if="${shit.isKing() == true}" th:text="'Fucking King'"></span>
+            <span th:unless="${shit.isKing() == true}" th:text="'Fucking Peasants and/or Dead'"></span>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

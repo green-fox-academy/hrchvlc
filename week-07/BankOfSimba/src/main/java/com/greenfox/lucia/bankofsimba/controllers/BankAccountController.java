@@ -13,11 +13,11 @@ public class BankAccountController {
 
     List<BankAccount> listOfAccounts = new ArrayList<>();
 
-    BankAccount firstBankAccount = new BankAccount("Simba", 2000, "lion", true);
-    BankAccount secondBankAccount = new BankAccount("Scar", 50000, "lion", false);
-    BankAccount thirdBankAccount = new BankAccount("Mufasa", 90000, "lion", false);
-    BankAccount fourthBankAccount = new BankAccount("Timon", 3000, "meerkat", false);
-    BankAccount fifthBankAccount = new BankAccount("Pumbaa", 500, "warthog", false);
+    BankAccount firstBankAccount = new BankAccount("Simba", 2000.00, "lion", true, false);
+    BankAccount secondBankAccount = new BankAccount("Scar", 50000.00, "lion", false, true);
+    BankAccount thirdBankAccount = new BankAccount("Mufasa", 90000.00, "lion", false, false);
+    BankAccount fourthBankAccount = new BankAccount("Timon", 3000.00, "meerkat", false, false);
+    BankAccount fifthBankAccount = new BankAccount("Pumbaa", 500.00, "warthog", false, false);
 
     @RequestMapping("/show")
     public String showAccount(Model model) {

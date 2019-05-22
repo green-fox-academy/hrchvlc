@@ -2,8 +2,9 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Bank of Simba</title>
-    <link rel="stylesheet" th:href="@{static/styles.css}" />
+    <link rel="stylesheet" th:href="@{/styles.css}" />
     <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis:500&display=swap" rel="stylesheet">
 </head>
 <body>
 <h1>Welcome to Bank of Simba!</h1>
@@ -14,16 +15,21 @@
         <th>Name</th>
         <th>Balance</th>
         <th>Animal Type</th>
-        <th>Is a king?</th>
+        <th>Profession</th>
+        <th>Side</th>
     </tr>
     <tr th:each="shit : ${list}">
         <td th:text="${shitStat.index + 1}"></td>
         <td th:text="${shit.getName()}"></td>
-        <td th:text="${shit.getBalance()}"></td>
+        <td th:text="${#numbers.formatDecimal(shit.getBalance(), 0, 'COMMA', 2, 'POINT')} + ' Zebra'"></td>
         <td th:text="${shit.getAnimalType()}"></td>
         <td>
-            <span th:if="${shit.isKing() == true}" th:text="'Fucking King'"></span>
-            <span th:unless="${shit.isKing() == true}" th:text="'Fucking Peasants and/or Dead'"></span>
+            <span class="king" th:if="${shit.isKing() == true}" th:text="'King'"></span>
+            <span th:unless="${shit.isKing() == true}" th:text="'Peasant and/or Dead'"></span>
+        </td>
+        <td>
+            <span th:if="${shit.isBad() == true}" th:text="'Bad Guy'"></span>
+            <span th:unless="${shit.isBad() == true}" th:text="'Good One'"></span>
         </td>
     </tr>
 </table>

@@ -3,3 +3,29 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+h1 {
+    color: antiquewhite;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    padding: 5px;
+    border: 30px;
+    margin: 15% 20% 5% 20%;
+}
+table {
+    border: 2px solid antiquewhite;
+    width: 50%;
+    margin: 15%;
+}
+th {
+    text-align: center;
+    border: 2px solid antiquewhite;
+    padding: 5px;
+}
+td {
+    text-align: right;
+    border: 2px solid antiquewhite;
+    padding: 5px;
+}
+.king {
+    color: darkgoldenrod;
+}

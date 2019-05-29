@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>To Do</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="/static/styles.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<h1>Hello, you piece of shit</h1>
+<br>
+    <div class="container">
+        <a class="btn btn-warning" href="/create" method="GET">Add new todo</a>
+    </div>
+    <br>
+    <div class="container">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">To Do</th>
+                    <th scope="col">Urgent</th>
+                    <th scope="col">Done</th>
+                    <th scope="col">Delete</th>
+                    <th scope="col">Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr th:each="item : ${todoRepository}">
+                <td scope="row" th:text="${item.getId()}"></td>
+                <td scope="row" th:text="${item.getTitle()}"></td>
+                <td scope="row" th:text="${item.isUrgent()}"></td>
+                <td scope="row" th:text="${item.isDone()}"></td>
+                <td scope="row"><a class="btn btn-danger" th:href="${item.getId()} + '/delete'">Delete</a></td>
+                <td scope="row"><a class="btn btn-info" th:href="${item.getId()} + '/edit'">Edit</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My ToDo app</title>
+    <link rel="stylesheet" href="/static/styles.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+
+</header>
+<main>
+    <h1>Update todo</h1>
+    <p th:text="'Updating: ' + ${todoTitle}"></p>
+    <form th:method="post" th:object="${todo}">
+        <label for="updateTodoText" th:text="'New title:'"></label>
+        <input id="updateTodoText" th:field="*{title}" type="text">
+
+        <label for="checkDone" th:text="'Done'" ></label>
+        <input id="checkDone" th:field="*{done}" type="checkbox">
+
+        <label for="checkUrgent" th:text="'Urgent'"></label>
+        <input id="checkUrgent" th:field="*{urgent}" type="checkbox">
+
+        <button type="submit" th:text="'Submit'"></button>
+    </form>
+    <a th:href="'/todo/list'" th:text="'Cancel'"></a>
+</main>
+
+<footer>
+
+</footer>
+</body>
+</html>

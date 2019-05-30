@@ -29,8 +29,14 @@
             <tr th:each="item : ${todoRepository}">
                 <td scope="row" th:text="${item.getId()}"></td>
                 <td scope="row" th:text="${item.getTitle()}"></td>
-                <td scope="row" th:text="${item.isUrgent()}"></td>
-                <td scope="row" th:text="${item.isDone()}"></td>
+                <td scope="row">
+                    <span th:if="${item.isUrgent() == true}">!!!</span>
+                    <span th:unless="${item.isUrgent() == true}">ø</span>
+                </td>
+                <td scope="row">
+                    <span th:if="${item.isDone() == true}"><img src="https://www.freeiconspng.com/uploads/black-tick-icon-26.png" width="20" alt="done"></span>
+                    <span th:unless="${item.isDone() == true}">ø</span>
+                </td>
                 <td scope="row"><a class="btn btn-danger" th:href="${item.getId()} + '/delete'">Delete</a></td>
                 <td scope="row"><a class="btn btn-info" th:href="${item.getId()} + '/edit'">Edit</a></td>
             </tr>

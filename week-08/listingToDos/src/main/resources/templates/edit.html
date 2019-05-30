@@ -12,20 +12,24 @@
 </header>
 <main>
     <h1>Update todo</h1>
-    <p th:text="'Updating: ' + ${todoTitle}"></p>
-    <form th:method="post" th:object="${todo}">
-        <label for="updateTodoText" th:text="'New title:'"></label>
-        <input id="updateTodoText" th:field="*{title}" type="text">
+    <br>
+    <div class="container">
+        <p th:text="'Updating: ' + ${todoTitle}"></p>
+        <form th:method="post" th:object="${todoForEdit}">
+            <label for="updateTodoText" th:text="'New title:'"></label>
+            <input id="updateTodoText" th:field="*{title}" type="text">
 
-        <label for="checkDone" th:text="'Done'" ></label>
-        <input id="checkDone" th:field="*{done}" type="checkbox">
+            <label for="checkDone">Done</label>
+            <input id="checkDone" th:field="*{done}" type="checkbox">
 
-        <label for="checkUrgent" th:text="'Urgent'"></label>
-        <input id="checkUrgent" th:field="*{urgent}" type="checkbox">
+            <label for="checkUrgent">Urgent</label>
+            <input id="checkUrgent" th:field="*{urgent}" type="checkbox">
 
-        <button type="submit" th:text="'Submit'"></button>
-    </form>
-    <a th:href="'/todo/list'" th:text="'Cancel'"></a>
+            <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+        <br>
+        <a th:href="'/'" class="btn btn-outline-danger">Cancel</a>
+    </div>
 </main>
 
 <footer>

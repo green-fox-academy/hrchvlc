@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+@Controller
 public class BasicwebshopController {
     private WebShop myWebShop = new WebShop(new ArrayList<>(Arrays.asList(
             new ShopItem("Running shoes", "Nike running shoes for every day sport", 1000, 5),

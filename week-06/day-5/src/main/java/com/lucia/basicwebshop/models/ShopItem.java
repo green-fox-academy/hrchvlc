@@ -12,6 +12,9 @@ public class ShopItem {
         this.price = price;
         this.quantityOfStock = quantityOfStock;
     }
+    public ShopItem(){
+
+    }
 
     public String getName() {
         return name;

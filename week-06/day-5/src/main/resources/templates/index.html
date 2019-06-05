@@ -2,14 +2,14 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>My WebShop</title>
     <link rel="stylesheet" href="/Styles.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 </head>
 <body>
 <div class="container">
     <h1>My shop</h1>
-    <form id="searchbar" method="post" action="/webshop/search">
+    <form id="searchbar" method="post" action="/search" th:object="${}>
         <div class="input-group mb-3">
             <input class="form-control" type="text" name="search" placeholder="...something like Nike"/>
             <div class="input-group-append">
@@ -21,11 +21,16 @@
     <table>
         <thead>
         <tr>
-            <th><form method="get" action="/webshop/only-available"><input type="submit" class="btn btn-primary" value="Only available"></form></th>
-            <th><form method="get" action="/webshop/cheapest-first"><input type="submit" class="btn btn-primary" value="Cheapest first"></form></th>
-            <th><form method="get" action="/webshop/contains-nike"><input type="submit" class="btn btn-primary" value="Contains Nike"></form></th>
-            <th><form method="get" action="/webshop/average-stock"><input type="submit" class="btn btn-primary" value="Average stock"></form></th>
-            <th><form method="get" action="/webshop/most-expensive"><input type="submit" class="btn btn-primary" value="Most Expensive"></form></th>
+            <th><form method="get" action="/only-available">
+                <input type="submit" class="btn btn-primary" value="Only available"></form></th>
+            <th><form method="get" action="/cheapest-first">
+                <input type="submit" class="btn btn-primary" value="Cheapest first"></form></th>
+            <th><form method="get" action="/contains-nike">
+                <input type="submit" class="btn btn-primary" value="Contains Nike"></form></th>
+            <th><form method="get" action="/average-stock">
+                <input type="submit" class="btn btn-primary" value="Average stock"></form></th>
+            <th><form method="get" action="/most-expensive">
+                <input type="submit" class="btn btn-primary" value="Most Expensive"></form></th>
         </tr>
         </thead>
     </table>

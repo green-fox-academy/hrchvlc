@@ -4,7 +4,8 @@ import com.lucia.basicwebshop.models.ShopItem;
 import com.lucia.basicwebshop.models.WebShop;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
@@ -19,52 +20,40 @@ public class BasicwebshopController {
             new ShopItem("Wokin", "Chicken with fried rice and WOKIN sauce", 119, 100),
             new ShopItem("T-shirt", "Blue with a corgi on a bike", 300, 1))));
 
-
-    @RequestMapping("/webshop")
-    public String webshop(Model model) {
-
+    @GetMapping("/")
+    public String getHome(Model model) {
         model.addAttribute("items", myWebShop.getShopItemList());
         return "index";
     }
-
-    @RequestMapping("/webshop/only-available")
-    public String getListOnlyAvailable(Model model) {
-
+    @GetMapping("/only-available")
+    public String getOnlyAvailable(Model model) {
         model.addAttribute("items", myWebShop.getListOnlyAvailable());
         return "index";
     }
-
-    @RequestMapping("/webshop/cheapest-first")
-    public String getCheapestFirst  (Model model) {
-        model.addAttribute("items", myWebShop.getListCheapestFirst());
+    @GetMapping("/cheapest-first")
+    public String getCheapestFirst(Model model) {
+        model.addAttribute("items", myWebShop.getListFromCheapest());
         return "index";
     }
-
-    @RequestMapping("/webshop/contains-nike")
-    public String getListContainsNike(Model model) {
-
-        model.addAttribute("items", myWebShop.getListContainNike());
+    @GetMapping("/contains-nike")
+    public String getOnlyWithWord(Model model) {
+        model.addAttribute("items", myWebShop.getOnlyWithWord());
         return "index";
     }
-
-    @RequestMapping("/webshop/average-stock")
-    public String getAverageStock(Model model) {
-
+    @GetMapping("/average-stock")
+    public String getAverage(Model model) {
         model.addAttribute("average", myWebShop.getAverageOfStock());
         return "index";
     }
-
-    @RequestMapping("/webshop/most-expensive")
-    public String getMostExpensiveShopItem (Model model) {
-
-        model.addAttribute("expensive", myWebShop.getMostExpensiveShopItem());
+    @GetMapping("/most-expensive")
+    public String getMostExpensive(Model model) {
+        model.addAttribute("expensive", myWebShop.getMostExpensiveFromList());
+        return "index";
+    }
+    @PostMapping("/search")
+    public String getSearch(Model model, @RequestParam String wanted) {
+        model.addAttribute("items", myWebShop.getListContainWord(wanted));
         return "index";
     }
 
-    @RequestMapping("/webshop/search")
-    public String searchItem (@RequestParam String search, Model model) {
-
-        model.addAttribute("items", myWebShop.getListContainWord(search));
-        return "index";
-    }
 }

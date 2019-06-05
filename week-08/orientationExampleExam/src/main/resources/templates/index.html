@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Url Alias Maker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <main>
+        <h1>Make an Alias!</h1>
+        <br>
+        <div class="container">
+            <h3 th:text="${message}"></h3>
+            <form th:action="@{save-link}" th:method="post" th:object="${urlAlias}">
+                <label for="url">URL</label>
+                <input id="url" type="text" th:field="*{url}">
+                <label for="alias">Alias</label>
+                <input id="alias" type="text" th:field="*{alias}">
+                <a type="submit" class="btn btn-warning" th:href="'/save-link'">Submit</a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
